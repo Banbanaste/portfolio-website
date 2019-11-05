@@ -1,190 +1,344 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8" >
-		<title>Startup 3.1.2 - portfolio</title>
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-				<link rel="icon" href="i/favicon.png" type="image/x-icon">
-		<!-- Google Fonts -->
-				<link href="https://fonts.googleapis.com/css?family=DM+Sans:100,200,300,400,600,500,700,800,900|DM+Sans:100,200,300,400,500,600,700,800,900&amp;subset=latin" rel="stylesheet">
-				<!-- Bootstrap 4.3.1 CSS -->
-		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-		<!-- Slick 1.8.1 jQuery plugin CSS (Sliders) -->
-		<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
-		<!-- Fancybox 3 jQuery plugin CSS (Open images and video in popup) -->
-		<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
-		<!-- AOS 2.3.4 jQuery plugin CSS (Animations) -->
-		<link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
-		<!-- FontAwesome CSS -->
-		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-		<!-- Startup 3 CSS (Styles for all blocks) -->
-					<link href="css/style.css" rel="stylesheet" />
-				<!-- jQuery 3.3.1 -->
-		<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-			</head> 
-	<body>
+  <head>
+    <meta charset="utf-8" />
+    <title>Roberto Banbanaste</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="i/favicon.png" type="image/x-icon" />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=DM+Sans:100,200,300,400,600,500,700,800,900|DM+Sans:100,200,300,400,500,600,700,800,900&amp;subset=latin"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap 4.3.1 CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <!-- Slick 1.8.1 jQuery plugin CSS (Sliders) -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <!-- Fancybox 3 jQuery plugin CSS (Open images and video in popup) -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css"
+    />
+    <!-- AOS 2.3.4 jQuery plugin CSS (Animations) -->
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+    <!-- FontAwesome CSS -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <!-- Startup 3 CSS (Styles for all blocks) -->
+    <link href="css/style.css" rel="stylesheet" />
+    <!-- jQuery 3.3.1 -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  </head>
+  <body>
+    <!-- Navigation 13 -->
 
-<!-- Navigation 13 -->
+    <nav class="pt-35 pb-35 bg-dark text-center navigation_13">
+      <div
+        class="container px-xl-0"
+        data-aos-duration="500"
+        data-aos="fade-down"
+        data-aos-delay="0"
+      >
+        <div class="d-inline-block">
+          <a
+            href="https://www.facebook.com/banbanaste"
+            target="_blank"
+            class="mb-20 f-22  color-gray mx-30"
+            ><i class="fab fa-facebook-square"></i
+          ></a>
+          <a
+            href="https://github.com/Banbanaste"
+            target="_blank"
+            class="mb-20 f-22 color-gray mx-30"
+            ><i class="fab fa-github"></i
+          ></a>
+          <a
+            href="https://twitter.com/RBanbanaste"
+            target="_blank"
+            class="mb-20 f-22 color-gray mx-30"
+            ><i class="fab fa-twitter"></i
+          ></a>
+        </div>
+      </div>
+    </nav>
+    <!-- Call to Action 3 -->
 
-<nav class="pt-35 pb-35 bg-dark text-center navigation_13">
-	<div class="container px-xl-0" data-aos-duration="500" data-aos="fade-down" data-aos-delay="0">
-		<a href="#" class="mx-20 link color-white">Home</a>
-		<a href="#" class="mx-20 link color-white">Features</a>
-		<a href="#" class="mx-20 link color-white">Pricing</a>
-		<a href="#" class="mx-20 link color-white">Blog</a>
-		<div class="d-inline-block">
-			<a href="#" class="mx-20 link color-white"><i class="fab fa-dribbble"></i></a>
-			<a href="#" class="mx-20 link color-white"><i class="fab fa-behance"></i></a>
-		</div>
-	</div>
-</nav>
-<!-- Call to Action 3 -->
+    <section class="pt-100 pb-100 bg-light text-center call_to_action_3">
+      <div class="container px-xl-0">
+        <div class="row justify-content-center">
+          <div class="col-xl-10">
+            <div
+              class="px-50 pt-80 pb-85 radius10 color-white bg-dark inner"
+              style="box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);"
+            >
+              <div
+                class="f-14 semibold text-uppercase sp-20"
+                data-aos-duration="500"
+                data-aos="fade-down"
+                data-aos-delay="0"
+              >
+                Roberto Banbanaste
+              </div>
+              <h2
+                class="mt-20 mb-45 small"
+                data-aos-duration="500"
+                data-aos="fade-down"
+                data-aos-delay="250"
+              >
+                i am a web developer<br />
+                ask me anything.
+              </h2>
+              <div
+                data-aos-duration="500"
+                data-aos="fade-down"
+                data-aos-delay="500"
+              >
+                <a href="#portfolio" class="btn action-1 mx-20">portfolio</a
+                ><a href="#contact" class="btn border-transparent-white mx-20"
+                  >contact me</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Showcase 5 -->
 
-<section class="pt-100 pb-100 bg-light text-center call_to_action_3">
-	<div class="container px-xl-0">
-		<div class="row justify-content-center">
-			<div class="col-xl-10">
-				<div class="px-50 pt-80 pb-85 radius10 color-white bg-dark inner">
-					<div class="f-14 semibold text-uppercase sp-20" data-aos-duration="500" data-aos="fade-down" data-aos-delay="0">Get Started</div>
-					<h2 class="mt-20 mb-45 small" data-aos-duration="500" data-aos="fade-down" data-aos-delay="250">Create your next project with <br />Startup Framework</h2>
-					<div data-aos-duration="500" data-aos="fade-down" data-aos-delay="500">					
-					<a href="#" class="btn lg action-1">Purchase for $249</a>
-					</div>					
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
-<!-- Showcase 5 -->
+    <section class="pt-105 pb-100 bg-dark showcase_5" id="portfolio">
+      <div class="container px-xl-0">
+        <div class="row justify-content-center text-center color-white">
+          <div class="col-xl-9 col-lg-10">
+            <h2
+              class="small"
+              data-aos-duration="500"
+              data-aos="fade-down"
+              data-aos-delay="0"
+            >
+              my portfolio.
+            </h2>
+            <div
+              class="mt-25 mb-40 f-22 text-adaptive"
+              data-aos-duration="500"
+              data-aos="fade-down"
+              data-aos-delay="250"
+            >
+              made w/ various web technologies.
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center text-center text-md-left">
+          <div
+            class="mt-30 col-xl-4 col-md-6 col-sm-8"
+            data-aos-duration="500"
+            data-aos="fade-down"
+            data-aos-delay="0"
+          >
+            <img
+              src="i/ac_preview.png"
+              srcset="i/ac_preview.png"
+              class="radius10 noradius_bottom w-full"
+              alt=""
+            />
+            <div class="px-20 pt-20 pb-30 radius10 noradius_top inner">
+              <div class="mb-10 f-22 title color-white">Alphacladding</div>
+              <div class="color-gray text-adaptive">
+                made with designmodo startup 3 & bootstrap, hosted w/ Digital
+                Ocean
+              </div>
+              <a
+                href="https://alphacladding.com/"
+                class="mt-20 btn sm action-1 color-main"
+                target="_blank"
+                >view</a
+              >
+            </div>
+          </div>
+          <div
+            class="mt-30 col-xl-4 col-md-6 col-sm-8"
+            data-aos-duration="500"
+            data-aos="fade-down"
+            data-aos-delay="250"
+          >
+            <img
+              src="i/ma_preview.png"
+              srcset="i/ma_preview.png"
+              class="radius10 noradius_bottom w-full"
+              alt=""
+            />
+            <div class="px-20 pt-20 pb-30 radius10 noradius_top inner">
+              <div class="mb-10 f-22 title color-white">metalApp</div>
+              <div class="color-gray text-adaptive">
+                React app, fetches current precious metal prices does some
+                calculations
+              </div>
+              <a
+                href="https://github.com/Banbanaste/metalApp"
+                class="mt-20 btn sm action-1 color-main"
+                target="_blank"
+                >view</a
+              >
+            </div>
+          </div>
+          <div
+            class="mt-30 col-xl-4 col-md-6 col-sm-8"
+            data-aos-duration="500"
+            data-aos="fade-down"
+            data-aos-delay="500"
+          >
+            <img
+              src="i/pp_preview.png"
+              srcset="i/pp_preview.png"
+              class="radius10 noradius_bottom w-full"
+              alt=""
+            />
+            <div class="px-20 pt-20 pb-30 radius10 noradius_top inner">
+              <div class="mb-10 f-22 title color-white">puppersPlz</div>
+              <div class="color-gray text-adaptive">
+                React app, fetches doggo pics from dog api, sorts & displays
+                them.
+              </div>
+              <a
+                href="https://github.com/Banbanaste/puppersPlz"
+                class="mt-20 btn sm action-1 color-main"
+                target="_blank"
+                >view</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-<section class="pt-105 pb-100 bg-dark showcase_5">
-	<div class="container px-xl-0">
-		<div class="row justify-content-center text-center color-white">
-			<div class="col-xl-9 col-lg-10">
-				<h2 class="small" data-aos-duration="500" data-aos="fade-down" data-aos-delay="0">25 Ready-to-Use Pages</h2>
-				<div class="mt-25 mb-40 f-22 text-adaptive" data-aos-duration="500" data-aos="fade-down" data-aos-delay="250">
-					We prepared some high-quality web-pages, that you can use in your projects. 
-					When you have to create your website you can use these templates.
-				</div>
-			</div>
-		</div>
-		<div class="row justify-content-center text-center text-md-left">
-			<div class="mt-30 col-xl-4 col-md-6 col-sm-8" data-aos-duration="500" data-aos="fade-down" data-aos-delay="0">
-				<img src="i/showcase_5_img_1.jpg" srcset="i/showcase_5_img_1@2x.jpg 2x" class="radius10 noradius_bottom w-full" alt="" />
-				<div class="px-30 pt-20 pb-30 bg-white radius10 noradius_top inner">
-					<div class="mb-10 f-22 title">Quality you can trust</div>
-					<div class="color-heading text-adaptive">
-						Startup Framework works fine on 
-						devices supporting Retina Desplay. 
-						Feel the clarity!					</div>
-					<a href="#" class="mt-20 btn sm border-gray color-main">Learn More</a>
-				</div>
-			</div>
-			<div class="mt-30 col-xl-4 col-md-6 col-sm-8" data-aos-duration="500" data-aos="fade-down" data-aos-delay="250">
-				<img src="i/showcase_5_img_2.jpg" srcset="i/showcase_5_img_2@2x.jpg 2x" class="radius10 noradius_bottom w-full" alt="" />
-				<div class="px-30 pt-20 pb-30 bg-white radius10 noradius_top inner">
-					<div class="mb-10 f-22 title">Fast prototyping</div>
-					<div class="color-heading text-adaptive">
-						Startup Framework works fine on 
-						devices supporting Retina Desplay. 
-						Feel the clarity!					</div>
-					<a href="#" class="mt-20 btn sm border-gray color-main">Learn More</a>
-				</div>
-			</div>
-			<div class="mt-30 col-xl-4 col-md-6 col-sm-8" data-aos-duration="500" data-aos="fade-down" data-aos-delay="500">
-				<img src="i/showcase_5_img_3.jpg" srcset="i/showcase_5_img_3@2x.jpg 2x" class="radius10 noradius_bottom w-full" alt="" />
-				<div class="px-30 pt-20 pb-30 bg-white radius10 noradius_top inner">
-					<div class="mb-10 f-22 title">Bootstrap based</div>
-					<div class="color-heading text-adaptive">
-						Startup Framework works fine on 
-						devices supporting Retina Desplay. 
-						Feel the clarity!					</div>
-					<a href="#" class="mt-20 btn sm border-gray color-main">Learn More</a>
-				</div>
-			</div>
-			<div class="mt-30 col-xl-4 col-md-6 col-sm-8" data-aos-duration="500" data-aos="fade-down" data-aos-delay="0">
-				<img src="i/showcase_5_img_4.jpg" srcset="i/showcase_5_img_4@2x.jpg 2x" class="radius10 noradius_bottom w-full" alt="" />
-				<div class="px-30 pt-20 pb-30 bg-white radius10 noradius_top inner">
-					<div class="mb-10 f-22 title">Mozart Project</div>
-					<div class="color-heading text-adaptive">
-						Startup Framework works fine on 
-						devices supporting Retina Desplay. 
-						Feel the clarity!					</div>
-					<a href="#" class="mt-20 btn sm border-gray color-main">Learn More</a>
-				</div>
-			</div>
-			<div class="mt-30 col-xl-4 col-md-6 col-sm-8" data-aos-duration="500" data-aos="fade-down" data-aos-delay="250">
-				<img src="i/showcase_5_img_5.jpg" srcset="i/showcase_5_img_5@2x.jpg 2x" class="radius10 noradius_bottom w-full" alt="" />
-				<div class="px-30 pt-20 pb-30 bg-white radius10 noradius_top inner">
-					<div class="mb-10 f-22 title">Web Generator</div>
-					<div class="color-heading text-adaptive">
-						Startup Framework works fine on 
-						devices supporting Retina Desplay. 
-						Feel the clarity!					</div>
-					<a href="#" class="mt-20 btn sm border-gray color-main">Learn More</a>
-				</div>
-			</div>
-			<div class="mt-30 col-xl-4 col-md-6 col-sm-8" data-aos-duration="500" data-aos="fade-down" data-aos-delay="500">
-				<img src="i/showcase_5_img_6.jpg" srcset="i/showcase_5_img_6@2x.jpg 2x" class="radius10 noradius_bottom w-full" alt="" />
-				<div class="px-30 pt-20 pb-30 bg-white radius10 noradius_top inner">
-					<div class="mb-10 f-22 title">Postcards</div>
-					<div class="color-heading text-adaptive">
-						Startup Framework works fine on 
-						devices supporting Retina Desplay. 
-						Feel the clarity!					</div>
-					<a href="#" class="mt-20 btn sm border-gray color-main">Learn More</a>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
+    <!-- Contact 10 -->
 
-<!-- Contact 10 -->
+    <section class="pt-100 pb-80 bg-light text-center contact_10" id="contact">
+      <div class="container px-xl-0">
+        <img
+          src="i/memoji.png"
+          srcset="i/memoji.png"
+          class="logo radius30"
+          alt=""
+          data-aos-duration="500"
+          data-aos="fade-down"
+          data-aos-delay="0"
+        />
+        <h2
+          class="mt-35 mb-140"
+          data-aos-duration="500"
+          data-aos="fade-down"
+          data-aos-delay="250"
+        >
+          mail me @
+          <div>
+            <a href="mailto:rbanbanaste@outlook.com" class="mt-10 link action-2"
+              >rbanbanaste@outlook.com</a
+            >
+          </div>
+        </h2>
+        <div
+          class="socials"
+          data-aos-duration="500"
+          data-aos="fade-down"
+          data-aos-delay="500"
+        >
+          <a
+            href="https://www.facebook.com/banbanaste"
+            target="_blank"
+            class="mb-20 f-22  color-gray mx-30 link "
+            ><i class="fab fa-facebook-square"></i
+          ></a>
+          <a
+            href="https://github.com/Banbanaste"
+            target="_blank"
+            class="mb-20 f-22 color-gray mx-30 link "
+            ><i class="fab fa-github"></i
+          ></a>
+          <a
+            href="https://twitter.com/RBanbanaste"
+            target="_blank"
+            class="mb-20 f-22 color-gray mx-30 link "
+            ><i class="fab fa-twitter"></i
+          ></a>
+        </div>
+      </div>
+    </section>
+    <!-- forms alerts -->
+    <div
+      class="alert alert-success alert-dismissible fixed-top alert-form-success"
+      role="alert"
+    >
+      <button
+        type="button"
+        class="close"
+        data-dismiss="alert"
+        aria-label="Close"
+      >
+        <span aria-hidden="true">&times;</span>
+      </button>
+      Thanks for your message!
+    </div>
+    <div
+      class="alert alert-warning alert-dismissible fixed-top alert-form-check-fields"
+      role="alert"
+    >
+      <button
+        type="button"
+        class="close"
+        data-dismiss="alert"
+        aria-label="Close"
+      >
+        <span aria-hidden="true">&times;</span>
+      </button>
+      Please, fill in required fields.
+    </div>
+    <div
+      class="alert alert-danger alert-dismissible fixed-top alert-form-error"
+      role="alert"
+    >
+      <button
+        type="button"
+        class="close"
+        data-dismiss="alert"
+        aria-label="Close"
+      >
+        <span aria-hidden="true">&times;</span>
+      </button>
+      An error occurred while sending data :(
+    </div>
 
-<section class="pt-100 pb-80 bg-light text-center contact_10">
-	<div class="container px-xl-0">
-		<img src="i/contact_10_logo.png" srcset="i/contact_10_logo@2x.png 2x" class="logo radius30" alt="" data-aos-duration="500" data-aos="fade-down" data-aos-delay="0" />
-		<h2 class="mt-75 mb-140" data-aos-duration="500" data-aos="fade-down" data-aos-delay="250">For any questions please mail us:			<div>
-				<a href="mailto:info@designmodo.com" class="mt-10 link action-2">info@designmodo.com</a>
-			</div>
-		</h2>
-		<div class="socials" data-aos-duration="500" data-aos="fade-down" data-aos-delay="500">
-			<a href="#" target="_blank" class="mb-20 f-22 link color-gray mx-30"><i class="fab fa-facebook-square"></i></a>
-			<a href="#" target="_blank" class="mb-20 f-22 link color-gray mx-30"><i class="fab fa-behance"></i></a>
-			<a href="#" target="_blank" class="mb-20 f-22 link color-gray mx-30"><i class="fab fa-pinterest"></i></a>
-			<a href="#" target="_blank" class="mb-20 f-22 link color-gray mx-30"><i class="fab fa-dribbble"></i></a>
-			<a href="#" target="_blank" class="mb-20 f-22 link color-gray mx-30"><i class="fab fa-twitter"></i></a>
-		</div>
-	</div>
-</section>
-<!-- forms alerts -->
-<div class="alert alert-success alert-dismissible fixed-top alert-form-success" role="alert">
-	<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-	Thanks for your message!
-</div>
-<div class="alert alert-warning alert-dismissible fixed-top alert-form-check-fields" role="alert">
-	<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-	Please, fill in required fields.
-</div>
-<div class="alert alert-danger alert-dismissible fixed-top alert-form-error" role="alert">
-	<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-	An error occurred while sending data :(
-</div>
-
-<!-- Bootstrap 4.3.1 JS -->
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
-<!-- Fancybox 3 jQuery plugin JS (Open images and video in popup) -->
-<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
-<!-- Google maps JS API -->
-<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?v=3&key=AIzaSyDP6Ex5S03nvKZJZSvGXsEAi3X_tFkua4U"></script>
-<!-- Slick 1.8.1 jQuery plugin JS (Sliders) -->
-<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-<!-- AOS 2.3.4 jQuery plugin JS (Animations) -->
-<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
-<!-- Maskedinput jQuery plugin JS (Masks for input fields) -->
-<script src="js/jquery.maskedinput.min.js"></script>
-<!-- Startup 3 JS (Custom js for all blocks) -->
-<script src="js/script.js"></script>
-
-</body>
+    <!-- Bootstrap 4.3.1 JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+    <!-- Fancybox 3 jQuery plugin JS (Open images and video in popup) -->
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+    <!-- Google maps JS API -->
+    <script
+      type="text/javascript"
+      src="https://maps.googleapis.com/maps/api/js?v=3&key=AIzaSyDP6Ex5S03nvKZJZSvGXsEAi3X_tFkua4U"
+    ></script>
+    <!-- Slick 1.8.1 jQuery plugin JS (Sliders) -->
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <!-- AOS 2.3.4 jQuery plugin JS (Animations) -->
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <!-- Maskedinput jQuery plugin JS (Masks for input fields) -->
+    <script src="js/jquery.maskedinput.min.js"></script>
+    <!-- Startup 3 JS (Custom js for all blocks) -->
+    <script src="js/script.js"></script>
+  </body>
 </html>
